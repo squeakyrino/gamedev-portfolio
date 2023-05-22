@@ -1,6 +1,12 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+  new ProjectData("project-cg", "Render engine from scratch", "img/projects/Engine-1.png", `
+  <div class="paragraph"> Some TODO text
+  </div>
+  `, 
+  "#000000", false, true)
+  ,
     new ProjectData("project-6", "Sultans Of Sing", "img/projects/project-6-icon.png", `
     <div class="paragraph">
       <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
@@ -102,5 +108,5 @@ export default [
               <div class="notice">
                 Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
               </div>
-            </div>`),
+            </div>`, "#123123", true, true),
 ];
