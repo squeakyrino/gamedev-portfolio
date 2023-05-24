@@ -2,10 +2,39 @@ import ProjectData from '@/data/ProjectData.ts'
 
 export default [
   new ProjectData("project-cg", "Render engine from scratch", "img/projects/Engine-1.png", `
-  <div class="paragraph"> Some TODO text
-  </div>
+  <div>
+      <div class="paragraph">
+        A C++/OpenGL engine from scratch with skeletal animations and other features!
+      </div>
+      <div class="notice">
+        Source code available on <a href="https://github.com/squeakyrino/Skeletal-Animation-Engine">GitHub</a>
+      </div>
+      <div class="paragraph">
+        Main features :
+        <ul>
+          <li>Skeleton animation</li>
+          <li>Model loading and animation loading using <a href="https://github.com/assimp/assimp">ASSIMP</a></li>
+          <li>Deferred shading</li>
+          <li>Normal mapping</li>
+          <li>Shadows</li>
+          <li>Post processing using render targets</li>
+        </ul>
+      </div>
+
+      <div class="paragraph center">
+        <video class="pc-screenshot" controls>
+          <source src="img/projects/Animations and shadows.mp4" type="video/mp4">
+        </video>
+        <video class="pc-screenshot" controls>
+          <source src="img/projects/Directional and Point lights with normal mapping.mp4" type="video/mp4">
+        </video>
+        <video class="pc-screenshot" controls>
+          <source src="img/projects/Gbuffer and depth map.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
   `, 
-  "#000000", false, true)
+  "#000000", true, true)
   ,
     new ProjectData("project-6", "Sultans Of Sing", "img/projects/project-6-icon.png", `
     <div class="paragraph">
