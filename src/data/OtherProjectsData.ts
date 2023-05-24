@@ -1,7 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-  new ProjectData("project-cg", "Render engine from scratch", "img/projects/Engine-1.png", `
+  new ProjectData("project-1", "Render engine from scratch", "img/projects/project1/Engine-1.png", `
   <div>
       <div class="paragraph">
         A C++/OpenGL engine from scratch with skeletal animations and other features!
@@ -10,7 +10,7 @@ export default [
         Source code available on <a href="https://github.com/squeakyrino/Skeletal-Animation-Engine">GitHub</a>
       </div>
       <div class="paragraph">
-        Main features :
+        Main features:
         <ul>
           <li>Skeleton animation</li>
           <li>Model loading and animation loading using <a href="https://github.com/assimp/assimp">ASSIMP</a></li>
@@ -23,19 +23,39 @@ export default [
 
       <div class="paragraph center">
         <video class="pc-screenshot" controls>
-          <source src="img/projects/Animations and shadows.mp4" type="video/mp4">
+          <source src="img/projects/project1/Animations and shadows.mp4" type="video/mp4">
         </video>
         <video class="pc-screenshot" controls>
-          <source src="img/projects/Directional and Point lights with normal mapping.mp4" type="video/mp4">
+          <source src="img/projects/project1/Directional and Point lights with normal mapping.mp4" type="video/mp4">
         </video>
         <video class="pc-screenshot" controls>
-          <source src="img/projects/Gbuffer and depth map.mp4" type="video/mp4">
+          <source src="img/projects/project1/Gbuffer and depth map.mp4" type="video/mp4">
         </video>
       </div>
     </div>
   `, 
-  "#000000", true, true)
-  ,
+  "#000000", true, true),
+  new ProjectData("project-2", "Simple ray tracer", "img/projects/project2/thumbnail.png", `
+    <div>
+      <div class="paragraph">
+        A simple ray tracer based of Casey Muratori's <a href="https://www.youtube.com/watch?v=pq7dV4sR7lg">one.</a>
+      </div>
+      <div class="notice">
+        Source code available on <a href="https://github.com/squeakyrino/Simple-Ray-Tracer">GitHub</a>
+      </div>
+      <div class="paragraph">
+        Supports:
+        <ul>
+          <li>Planes, spheres and triangles</li>
+          <li>Parallelization</li>
+        </ul>
+      </div>
+
+      <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/project2/ray tracer render.bmp"/>
+      </div>
+    </div>
+    `),
     new ProjectData("project-6", "Sultans Of Sing", "img/projects/project-6-icon.png", `
     <div class="paragraph">
       <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
