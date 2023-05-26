@@ -1,34 +1,29 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-10000", "Optimistic Chubby", "img/projects/project-1-icon.png", 
+    new ProjectData("project-10000", "FIX_ME.exe", "img/projects/project3/project-3.png", 
     `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+    You are the first person to pick a buggy mess of a game in a very long time, and things don't seem to work as expected. The only hope for this game to work is if you team up with a weirdly incompetent AI to fix the game from within.
     </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    <div class="paragraph">
+        A game developed by me and 3 other friends in 48 hours for the Global Game Jam organized at Instituto Superior Técnico.
+        Won the Instituto Superior Técnico Game Jam's first prize.
     </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+    <div class="notice">
+        You can get it on <a href="https://globalgamejam.org/2020/games/fixmeexe-8" target="_blank">globalgamjam.org</a>!
     </div>
 
     <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
+        I worked on several parts of the game but the highlight would be a non-euclidean room effect, as can be seen below.
     </div>
 
     <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+        <video class="pc-screenshot" controls>
+          <source src="img/projects/project3/portal-effect-showcase.mp4" type="video/mp4">
+        </video>
     </div>
-    `, "#23bd69", true),
+    `, "#23bd69"),
     new ProjectData("project-20000", "Singing Addict", "img/projects/project-2-icon.png", `
     <div class="paragraph">
         <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
