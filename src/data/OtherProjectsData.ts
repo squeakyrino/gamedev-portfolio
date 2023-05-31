@@ -55,15 +55,31 @@ export default [
         <img class="pc-screenshot" src="img/projects/project2/ray tracer render.bmp"/>
       </div>
     </div>
-    `),
-    new ProjectData("project-4", "Mega Unemployed Plumber Universe", "img/projects/project-4.png", `
+    `, "#4d4d4d"),
+    new ProjectData("project-4", "Mega Unemployed Plumber Universe", "img/projects/project4/project4.png", `
     <div class="paragraph">
-      <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
-      <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
-            </div>
-            <div class="paragraph center">
-              <a href="https://www.microsoft.com/en-us/p/some-app" target="_blank"><img src="img/projects/ms-store-logo.png" alt="MS Store button" /></a>
-          </div>
+      <strong>Mega Unemployed Plumber Universe</strong> is project for a university class made with the render engine from scratch!
+      Developed by a group of of 4, my contribution was the rendering engine, with the physics engine and camera controls being developed by the other group members.
+
+        <div class="paragraph center">
+          <video class="pc-screenshot" controls>
+            <source src="img/projects/project4/project4-video.mp4" type="video/mp4">
+          </video>
+        </div>
+    `, "#940505"),
+    new ProjectData("project-5", "Exploring Bi-Directional Pinpointing Techniques for Cross-Reality Collaboration", "img/projects/project-6-icon.png", `
+    <div class="paragraph">
+      For the virtual reality course at Instituto Superior Técnico, me and my colleagues developed a puzzle-like game.
+      Our intention was to explore communication techniques between a user in a virtual reality space and another user in a tablet, 2 different type of interaction mediums.
+      
+      <div class="paragraph">
+          Built on unity
+      </div>
+
+      <div class="notice">
+        This project was published as a scientific article with the title <a href="https://ieeexplore.ieee.org/abstract/document/9419115">Exploring Bi-Directional Pinpointing Techniques for Cross-Reality Collaboration</a>
+        in the <a href="https://ieeexplore.ieee.org/xpl/conhome/9419087/proceeding">2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)</a>.
+      </div>
 
           <div class="paragraph">
             Main features :
@@ -80,32 +96,7 @@ export default [
           <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
           <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
         </div>
-    `, "#c10606", false, true),
-    new ProjectData("project-6", "Sultans Of Sing", "img/projects/project-6-icon.png", `
-    <div class="paragraph">
-      <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
-      <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
-            </div>
-            <div class="paragraph center">
-              <a href="https://www.microsoft.com/en-us/p/some-app" target="_blank"><img src="img/projects/ms-store-logo.png" alt="MS Store button" /></a>
-          </div>
-
-          <div class="paragraph">
-            Main features :
-            <ul>
-            <li>Some stuff</li>
-            <li>Some great stuff</li>
-            <li>More awesome stuff</li>
-            <li>And then some</li>
-            </ul>
-        </div>
-
-        <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
-        </div>
-    `, "#c10606", false, true),
+    `, "#000099", false, true),
     new ProjectData("project-7", "Drew Blood", "img/projects/project-7-icon.png", `
     <div class="paragraph">
                 <strong>Drew Blood</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
