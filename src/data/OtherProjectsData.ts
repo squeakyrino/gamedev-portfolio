@@ -61,41 +61,29 @@ export default [
       <strong>Mega Unemployed Plumber Universe</strong> is project for a university class made with the render engine from scratch!
       Developed by a group of of 4, my contribution was the rendering engine, with the physics engine and camera controls being developed by the other group members.
 
-        <div class="paragraph center">
-          <video class="pc-screenshot" controls>
-            <source src="img/projects/project4/project4-video.mp4" type="video/mp4">
-          </video>
-        </div>
+      <div class="paragraph center">
+        <video class="pc-screenshot" controls>
+          <source src="img/projects/project4/project4-video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
     `, "#940505"),
-    new ProjectData("project-5", "Exploring Bi-Directional Pinpointing Techniques for Cross-Reality Collaboration", "img/projects/project-6-icon.png", `
+    new ProjectData("project-5", "Dollhouse VR", "img/projects/project5/project5.png", `
     <div class="paragraph">
       For the virtual reality course at Instituto Superior Técnico, me and my colleagues developed a puzzle-like game.
       Our intention was to explore communication techniques between a user in a virtual reality space and another user in a tablet, 2 different type of interaction mediums.
-      
-      <div class="paragraph">
-          Built on unity
-      </div>
 
       <div class="notice">
         This project was published as a scientific article with the title <a href="https://ieeexplore.ieee.org/abstract/document/9419115">Exploring Bi-Directional Pinpointing Techniques for Cross-Reality Collaboration</a>
         in the <a href="https://ieeexplore.ieee.org/xpl/conhome/9419087/proceeding">2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)</a>.
       </div>
 
-          <div class="paragraph">
-            Main features :
-            <ul>
-            <li>Some stuff</li>
-            <li>Some great stuff</li>
-            <li>More awesome stuff</li>
-            <li>And then some</li>
-            </ul>
-        </div>
-
-        <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
-        </div>
+      <div class="paragraph center">
+        <video class="pc-screenshot" controls>
+          <source src="img/projects/project5/project5-video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
     `, "#000099", false, true),
     new ProjectData("project-7", "Drew Blood", "img/projects/project-7-icon.png", `
     <div class="paragraph">
