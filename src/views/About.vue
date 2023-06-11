@@ -4,25 +4,21 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>Rafael Prates</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br />
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in
-        shape.
+        I am <strong>Rafael Prates</strong> and this is my portfolio!.<br />
+        In here, you will be able to take a look at some of my projects, mostly developed in C++.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on <router-link to="/game-projects">stuff</router-link>, on <router-link
-          to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few
-          things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I have worked on <router-link to="/game-projects">a few games</router-link>, a lot of <router-link
+          to="/other-projects">curiosity projects</router-link>, and you can take a look at my <router-link to="/resume">resume</router-link> as well.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John
-        Rambo did a few years back. You can reach me at <a
-          href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through
-          here</router-link>.</div>
+      <div style="margin-top: 40px;">I am <strong>currently looking for a job</strong> (ideally in the computer graphics area). You can reach me
+        <router-link to="/contact">through here</router-link>.</div>
     </div>
-
+    <!--
     <div class="photo">
       <img src="img/avatar.png" alt="Avatar of John" />
     </div>
-
+    -->
     <div style="clear:both"></div>
 
   </div>

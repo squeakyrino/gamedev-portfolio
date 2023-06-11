@@ -43,11 +43,5 @@
   text-align: left;
   padding: 1em;
   line-height: 1em;
-  font-family: PixelFont;
-}
-
-@font-face {
-  font-family: PixelFont;
-  src: url("../css/PixelEmulator-xq08.ttf");
 }
 </style>
