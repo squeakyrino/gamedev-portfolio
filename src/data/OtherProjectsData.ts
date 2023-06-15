@@ -1,7 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-  new ProjectData("project-1", "Render engine from scratch", "img/projects/project1/Engine-1.png", `
+  new ProjectData("project-render-engine", "Render engine from scratch", "img/projects/project-render-engine/project-render-engine-thumbnail.png", `
   <div>
       <div class="paragraph">
         A C++/OpenGL engine from scratch with skeletal animations and other features!
@@ -23,19 +23,59 @@ export default [
 
       <div class="paragraph center">
         <video class="pc-screenshot" controls>
-          <source src="img/projects/project1/Animations and shadows.mp4" type="video/mp4">
+          <source src="img/projects/project-render-engine/Animations and shadows.mp4" type="video/mp4">
         </video>
         <video class="pc-screenshot" controls>
-          <source src="img/projects/project1/Directional and Point lights with normal mapping.mp4" type="video/mp4">
+          <source src="img/projects/project-render-engine/Directional and Point lights with normal mapping.mp4" type="video/mp4">
         </video>
         <video class="pc-screenshot" controls>
-          <source src="img/projects/project1/Gbuffer and depth map.mp4" type="video/mp4">
+          <source src="img/projects/project-render-engine/Gbuffer and depth map.mp4" type="video/mp4">
         </video>
       </div>
     </div>
   `, 
   "#000000", true, true),
-  new ProjectData("project-2", "Simple ray tracer", "img/projects/project2/thumbnail.png", `
+  new ProjectData("project-mupu", "Mega Unemployed Plumber Universe", "img/projects/project-mupu/project-mupu-thumbnail.png", `
+    <div class="paragraph">
+      <strong>Mega Unemployed Plumber Universe</strong> is project for a university class made with the render engine from scratch!
+      Developed by a group of of 4, my contribution was the rendering engine, with the physics engine and camera controls being developed by the other group members.
+
+      <div class="paragraph center">
+        <video class="pc-screenshot" controls>
+          <source src="img/projects/project-mupu/project-mupu-video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    `, "#540505"),
+    new ProjectData("project-chip-8", "Chip-8 emulator", "img/projects/project-chip-8/project-chip-8-thumbnail.gif", `
+    <div class="paragraph">
+      To understand how emulators worked, I set out to build my own.
+      The Chip-8 emulator project is an emulator for the <a href="https://en.wikipedia.org/wiki/CHIP-8">CHIP-8 virtual
+        machine</a>.
+    </div>
+    <div class="paragraph">
+      You can run games quite a few games on it, with a few having some issues due to inaccuracies.
+    </div>
+    <div class="paragraph">
+      <div class="notice">
+        Emulator avaiable on <a href="https://github.com/squeakyrino/Chip8-Emulator">github.com</a>.
+      </div>
+    </div>
+    <div class="paragraph">
+      Main features :
+      <ul>
+        <li>CHIP-8 interpreter</li>
+        <li>Window/graphics using <a href="https://www.sfml-dev.org/">SFML</a></li>
+      </ul>
+
+      <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/project-chip-8/project-chip-8-tic-tac.gif"/>
+        <img class="pc-screenshot" src="img/projects/project-chip-8/project-chip-8-pong.gif"/>
+        <img class="pc-screenshot" src="img/projects/project-chip-8/project-chip-8-thumbnail.gif"/>
+      </div>
+
+    </div>`),
+  new ProjectData("project-simple-ray-tracer", "Simple ray tracer", "img/projects/project-simple-ray-tracer/project-simple-ray-tracer-thumbnail.png", `
     <div>
       <div class="paragraph">
         A simple ray tracer based of Casey Muratori's <a href="https://www.youtube.com/watch?v=pq7dV4sR7lg">one.</a>
@@ -52,114 +92,40 @@ export default [
       </div>
 
       <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/project2/ray tracer render.bmp"/>
+        <img class="pc-screenshot" src="img/projects/project-simple-ray-tracer/ray tracer render.bmp"/>
       </div>
     </div>
-    `, "#4d4d4d"),
-    new ProjectData("project-4", "Mega Unemployed Plumber Universe", "img/projects/project4/project4.png", `
+    `, "#4d4d4d", true, true),
+    new ProjectData("project-dynarec", "Dynamic compilation project", "img/projects/project-dynarec/project-dynarec-thumbnail.jpg", `
     <div class="paragraph">
-      <strong>Mega Unemployed Plumber Universe</strong> is project for a university class made with the render engine from scratch!
-      Developed by a group of of 4, my contribution was the rendering engine, with the physics engine and camera controls being developed by the other group members.
-
-      <div class="paragraph center">
-        <video class="pc-screenshot" controls>
-          <source src="img/projects/project4/project4-video.mp4" type="video/mp4">
-        </video>
-      </div>
+      DynaRec is a small project that I built to understand how JIT compilation works.
+      I was really interested in understanding how emulators were able to translate code, from a source platform, to native instructions of a target platform. 
     </div>
-    `, "#940505"),
-    new ProjectData("project-5", "Dollhouse VR", "img/projects/project5/project5.png", `
+    
     <div class="paragraph">
-      For the virtual reality course at Instituto Superior Técnico, me and my colleagues developed a puzzle-like game.
-      Our intention was to explore communication techniques between a user in a virtual reality space and another user in a tablet, 2 different type of interaction mediums.
+      It features a code emitter that is able to write a few different x86 assembly instructions to a code block, and later executes that code block dynamically.
+    </div>
 
+    <div class="paragraph">
       <div class="notice">
-        This project was published as a scientific article with the title <a href="https://ieeexplore.ieee.org/abstract/document/9419115">Exploring Bi-Directional Pinpointing Techniques for Cross-Reality Collaboration</a>
-        in the <a href="https://ieeexplore.ieee.org/xpl/conhome/9419087/proceeding">2021 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)</a>.
+        You can take a look at the code <a href="https://github.com/squeakyrino/DynaRec">here</a>.
       </div>
-
-      <div class="paragraph center">
-        <video class="pc-screenshot" controls>
-          <source src="img/projects/project5/project5-video.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
-    `, "#000099", false, true),
-    new ProjectData("project-7", "Drew Blood", "img/projects/project-7-icon.png", `
+    </div>`, "#1ca1e2"),
+    new ProjectData("project-conway-game-life", "Conway's game of life", "img/projects/project-conway-game-life/project-conway-game-life-thumbnail.gif", `
     <div class="paragraph">
-                <strong>Drew Blood</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@karolina-grabowska">Karolina Grabowska</a>.
-            </div>
-
-            <div class="paragraph">
-              Main features :
-              <ul>
-              <li>Some stuff</li>
-              <li>Some great stuff</li>
-              <li>More awesome stuff</li>
-              <li>And then some</li>
-              </ul>
-          </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                You can download and try the app for free or purchase it directly from <a href="http://www.somewbsite.com/" target="_blank">Some website</a>
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
-            </div>`, "#1ca1e2"),
-    new ProjectData("project-8", "The Art of Walking", "img/projects/project-8-icon.png", `
-    <div class="paragraph">
-                <strong>The Art of Walking</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-            </div>
-
-            <div class="paragraph center">
-              <a href="https://play.google.com/store/apps/details?id=someapp" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-          </div>
-
-          <div class="paragraph">
-          Main features :
-          <ul>
-          <li>Some stuff</li>
-          <li>Some great stuff</li>
-          <li>More awesome stuff</li>
-          <li>And then some</li>
-          </ul>
-      </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-            </div>`),
-    new ProjectData("project-9", "Nikolable", "img/projects/project-9-icon.png", `
-     <div class="paragraph">
-                <strong>Nikolable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@goumbik">Lukas</a>.
-            </div>
-
-            <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
+      A simple implementation of Conway's Game of Life!
     </div>
 
-            <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>`, "#123123", true, true),
+    <div class="paragraph">
+      First project where I used <a href="https://www.sfml-dev.org/">SFML</a>.
+    </div>
+    
+    <div class="paragraph">
+      <div class="notice">Source code available on <a href="https://github.com/squeakyrino/Conways-Game-of-Life">github.com</a>.
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/project-conway-game-life/project-conway-game-life-thumbnail.gif"/>
+    </div>
+</div>`, "#540542"),
 ];
