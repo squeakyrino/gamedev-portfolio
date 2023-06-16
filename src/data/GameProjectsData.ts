@@ -41,7 +41,7 @@ export default [
         <source src="img/projects/project-dollhouse-vr/project-dollhouse-vr-video.mp4" type="video/mp4">
       </video>
     </div>
-    `, "#808080", false, true),
+    `, "#808080", true, true),
     new ProjectData("project-inkquest", "InkQuest", "img/projects/project-inkquest/project-inkquest-thumbnail.png", `
     <div class="paragraph">
         InkQuest was a game developed by me and 3 other colleagues for the Game Development Methodology course.
@@ -75,6 +75,7 @@ export default [
         </video>
     </div>
     `, "#3B044B"),
+/** /
     new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
     <div class="paragraph">
         <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
@@ -163,4 +164,5 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
     </div>`, "#e48246")
+/**/
 ];
