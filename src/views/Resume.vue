@@ -3,7 +3,14 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
+      I'm <strong>Rafael Prates</strong> a Master's graduate from Instituto Superior Técnico.
+      I describe myself as a curious person and always eager to learn! If there is a topic 
+
+      former student. created a lot of projects to learn interesting topics about compupter science,
+      curious, like to learn 
+      currently working in japan, 
+      <br /> <br />
+      , a former Delta Force operative with lots of experience, lots of training and huge muscles.
       <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
       <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
       <br />I love teamwork, but I can also go in solo depending on the mission requirements.
@@ -49,56 +56,40 @@
 
       <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
 
-      <h2>Skills</h2>
-
-      <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
-      </div>
-
-      <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
-      </div>
-      <div style="clear:both" />
-
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+        <h3>Instituto Superior Técnico - 2022</h3>
+          <h4>Master's degree, Information Systems and Computer Engineering</h4>
+          <div>Specialty in games and advanced algorithms</div>
+
+        <h3>Faculdade de Ciências da Universidade de Lisboa - 2019</h3>
+          <h4>Bachelor's degree, Informatics Engineering</h4>
 
       <h2>Languages</h2>
 
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
+      <h3>Portuguese</h3>
+      <div>Native</div>
 
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
+      <h3>English</h3>
+      <div>Native level</div>
 
+      <h3>Japanese</h3>
+      <div>Very basic level (so far) but learning every day!</div>
 
       <h2>Besides...</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
+        <h3>I ❤️ video games</h3>
+        <div>Personal favorites include the Shin Megami Tensei series, Mario & Luigi series and Apex Legends.</div>
 
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
-
+        <h3>I 🧡 photography</h3>
+        <div>Mostly landscape and I have a love spot for night time long exposure photography!</div>
+        <!--
         <h3>I 💛 Politics</h3>
         <div>I hope I can have a career here someday but I might have temper issues.</div>
 
         <h3>I 💚 Flowers</h3>
         <div>Especially the big ones, with the trunk and leaves.</div>
+        -->
 
       </div>
     </div>
@@ -107,12 +98,10 @@
 
 <script lang="ts">
 import Vue from "vue";
-import SkillRate from "@/components/SkillRate.vue";
 
 export default Vue.extend({
   name: "Resume",
   components: {
-    SkillRate,
   },
 });
 </script>
@@ -154,10 +143,6 @@ h4 {
   max-width: 800px;
 }
 
-.skill-set h3 {
-  padding-bottom: 10px;
-}
-
 .photo img {
   height: 300px;
   width: 300px;
@@ -181,11 +166,6 @@ h4 {
     float: left;
     padding: 30px;
     padding-left: 80px;
-  }
-
-  .skill-set {
-    float: left;
-    padding-right: 60px; 
   }
 }
 </style>
