@@ -1,69 +1,41 @@
 <template>
   <div>
-    <h1>Resume</h1>
+    <h1>About me</h1>
 
     <div class="paragraph">
-      I'm <strong>Rafael Prates</strong> a Master's graduate from Instituto Superior Técnico.
-      I describe myself as a curious person and always eager to learn! If there is a topic 
+      <p>
+        Hey! I'm <strong>Rafael Prates</strong>, thank you for viewing my portfolio!
+      </p>
 
-      former student. created a lot of projects to learn interesting topics about compupter science,
-      curious, like to learn 
-      currently working in japan, 
-      <br /> <br />
-      , a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
-      <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
-      <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      <p>
+        I describe myself as a curious person and always eager to learn! If there is a topic I'd like to explore, I usually make a small project for it.
+        I'm also very communicative and friendly.
+      </p>
 
+      <p>
+        I've developed mostly in C++, but I'm very familiar with other tech stacks like Java, Python, Unity (just to name a few).
+      </p>
+
+      <p>
+        For a full CV, please <router-link to="/contact">contact me on LinkedIn</router-link>!
+      </p>
+
+      <!--
       <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
         <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
         <div style="clear:both"></div>
       </div>
+      -->
     </div>
+    <!--
     <div class="photo">
       <img src="img/resume-photo.png" alt="Photo of John" />
     </div>
-
+    -->
     <div style="clear:both"></div>
 
     <div class="full-content">
-      <h2>Work experience</h2>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h2>Education</h2>
-
-        <h3>Instituto Superior Técnico - 2022</h3>
-          <h4>Master's degree, Information Systems and Computer Engineering</h4>
-          <div>Specialty in games and advanced algorithms</div>
-
-        <h3>Faculdade de Ciências da Universidade de Lisboa - 2019</h3>
-          <h4>Bachelor's degree, Informatics Engineering</h4>
 
       <h2>Languages</h2>
 

@@ -1,10 +1,10 @@
 <template>
   <div class="header">
     <div class="nav-bar">
-      <router-link to="/">About me</router-link>
+      <router-link to="/">Introduction</router-link>
       <router-link to="/game-projects">Games</router-link>
       <router-link to="/other-projects">Other projects</router-link>
-      <router-link to="/resume">Resume</router-link>
+      <router-link to="/resume">About me</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>
   </div>
